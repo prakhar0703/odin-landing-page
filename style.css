@@ -1,37 +1,24 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  background-color: #1f2937;
-  color: white;
-}
-
-.header .nav {
+.wrapper {
   display: flex;
-  flex: 1;
+  /* flex-direction: column; */
+
+}
+
+.header-hero-container {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
   justify-content: space-between;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
-  text-wrap: wrap;
-}
-
-.hero-text,
-.hero-image {
-  flex: auto;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+  /* flex: 1 1 auto; */
 }
