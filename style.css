@@ -207,3 +207,14 @@ a:link, a:visited {
   border-color: #fff;
   border-radius: 10px;
 }
+
+footer {
+  height:10vh;
+  padding: 3em;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #fff;
+}
